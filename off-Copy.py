@@ -1,4 +1,8 @@
-____________________██████
+ except:
+  print("\033[91m[-] "+i+" ==> Can't Get IP")
+print("""\033[93m
+
+ ____________________██████
 _________▓▓▓▓____█████████
 __ Ƹ̵̡Ӝ̵̨̄Ʒ▓▓▓▓▓=▓____▓=▓▓▓▓▓
 __ ▓▓▓_▓▓▓▓░●____●░░▓▓▓▓
@@ -36,6 +40,11 @@ _'▀█║────────────▄▄─────────
 ──────▀█████▀▀▄▀
 ────────▀█▀
 
+                       
+ {a}Mass 0Day Shell Upload {b}- {a}Exploit wp-file-manager {b}6.7
+ {a}Right {b}: {a}git@w4fz5uck5 {b}- {a}0xtn
+ {a}Developer{b} : {a}Aron-Tn
+""".format(a="\033[92m", b="\033[94m"))
 
 import smtplib
 import datetime
