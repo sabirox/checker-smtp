@@ -95,7 +95,7 @@ def checker(data):
 
 
 if __name__ =="__main__":
-  file_name = raw_input("Enter Your Liste Email Name :")
+  file_name = input("Enter Your Liste Email Name :")
   try:
     TEXTList = open(file_name, 'r').read().splitlines()
     p = Pool(25)
